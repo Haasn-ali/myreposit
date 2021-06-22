@@ -1,0 +1,143 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+
+}
+
+a{
+	text-decoration: none;
+	margin:0;
+}
+
+
+/*================== header area ===================*/
+
+
+.header_area, .footer{
+	background-color: #34495E;
+	padding:3rem 0;
+	text-align: center;
+}
+
+.header_area ul, .footer ul{
+	list-style-type: none;
+}
+
+.header_area ul li, .footer ul li{
+	display: inline;
+}
+
+.header_area ul li a, .footer ul li a{
+	text-transform: capitalize;
+	padding:1rem 2.5rem;
+	margin:.5rem;
+	font-size: 1.5rem;
+	color:#000;
+	display: inline-block;
+	background: #E67E22;
+	border-radius: 5px;
+	transition:.5s ease-in-out;
+}
+.header_area ul li:hover a, .header_area ul li.active a, .footer ul li:hover a{
+	color:#000;
+	background: #fff;
+	box-shadow: 1px 2px 20px rgba(0, 0, 0, .8);
+}
+
+/*================== header area ===================*/
+.slider_area{
+	margin:0;
+	padding:4rem;
+	background: url('https://i.ibb.co/X201ypG/stylish-hexagonal-line-pattern-background-1017-19742.jpg') repeat center center #fff;
+}
+
+.slider_area h2{
+	font-size: 3.2rem;
+	line-height: 5rem;
+	word-spacing: 1px;
+	color:#34495E;
+	margin-bottom: 3rem
+}
+
+.slider_area p{
+	font-size: 1.2rem;
+	line-height: 1.8rem;
+	word-spacing: 1px;
+	color:#34495E;
+	margin-bottom: 3rem
+}
+
+.slider_area a{
+	font-size: 1.5rem;
+	line-height: 2rem;
+	word-spacing: 1px;
+	padding: 1rem 2.5rem;
+	color:#fff;
+	display: inline-block;
+	transition:.5s ease-in-out;
+	border:1px solid #000;
+}
+
+.slider_area a:hover{
+	background: #fff;
+	color:#000;
+}
+
+/*================== Content area ===================*/
+.content{
+	padding: 4rem;
+	background: #D35400;
+
+}
+
+.content h2{
+	color:#fff;
+	font-size: 3rem;
+	margin-bottom: 3rem;
+	
+}
+
+.content p{
+	color:#fff;
+	font-size: 1.5rem;
+	line-height: 2rem;
+	margin-bottom: 3rem;
+	
+}
+
+
+
+.content ul {
+	list-style-type: none;
+}
+
+.content ul li{
+	display: inline;
+}
+
+
+.content ul li a{
+	color: #2C3E50;
+	display: inline-block;
+	font-size: 2rem;
+	font-weight: 700;
+	margin:0 2rem;
+}
+
+.content ul li:hover a{
+	color:red;
+}
+
+
+/*================== header area ===================*/
+
+.footer{
+	background:#2C3E50;
+}
+
+.footer p{
+	font-size: 1.5rem;
+}
